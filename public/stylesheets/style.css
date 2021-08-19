@@ -9,7 +9,7 @@ body {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  padding-top: 90px;
+  padding-top: 55px;
 }
 
 #webchat[watermark="true"] [role="complementary"] ul[role="list"]::after {
@@ -40,13 +40,13 @@ body {
   width: 100%;
   z-index: 10000;
   background: rgba(248, 248, 248, 1);
-  padding: 10px 60px;
+  padding: 20px 60px;
 }
 
 .logo {
-  width: 300px;
-  height: 70px;
-  background-image: url("https://www.gmcs.ru/img/GMCS_svc_rus.svg");
+  width: 150px;
+  height: 15px;
+  background-image: url("https://gemotest.ru/local/templates/main/img/logo.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
